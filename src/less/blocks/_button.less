@@ -1,0 +1,25 @@
+.button {
+  border-radius: 22px;
+}
+
+.button_gradient {
+
+}
+
+.button_not-gradient {
+  background: #fff;
+  color : @purple;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  border: 2px solid @purple;
+  padding: 13px 19px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  outline: none;
+  display: inline-block;
+
+  &:hover, &:active {
+    border-color: rgba(139,164,249,0.5);
+  }
+}
